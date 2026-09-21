@@ -1,0 +1,737 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2130141902827303710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 83871887191740168}
+  - component: {fileID: 3142026473208763235}
+  m_Layer: 0
+  m_Name: FBI Load Tape
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &83871887191740168
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130141902827303710}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4594410282701189010}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3142026473208763235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130141902827303710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1802385075, guid: ae6df1fee595eda6dbb801a74c907a8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab_base: {fileID: 0}
+  tape_id: 60780
+  tape_id_string: ciarencew.fbi_load_tape
+  tape_type: 0
+  tape_group: 301
+  tape_group_priority: 0
+  original_event_id: 
+  voice_filter: event:/Tapes/tape_audio_wrapper
+  recording: 
+  audio_file_path: FBILoadTapeAudio.ogg
+  tape_instance_id: -1
+  label_texture: {fileID: 0}
+  stoppable: 1
+  use_random_degradation_curve: 0
+  degradation_steps: 5
+  initial_degradation: 0
+  degradation_per_listen: 1
+  texture_mask: {fileID: 0}
+  title: FBI Load
+  text: 'In the 1950''s and 60''s, postwar America faced an increased number of violent
+    crimes and armed confrontations between gangsters and police officers. Contemporary
+    policemen were mainly firing sidearms chambered in .38 Special, with the standard
+    load being a 158-grain lead round-nose bullet, which had the.. annoying tendency
+    to go through whatever -or whoever- it was fired at, and continue on through
+    whatever (or whoever) happened to be standing behind, all the while failing to
+    actually stop the intended target.
+
+
+    Despite making numerous complaints,
+    cries of police unions went largely unanswered, with a few agencies attempting
+    to introduce new .38 Special loads to combat this problem, such as the 200-grain
+    blunt-nosed "Super Police" load, which faced the.. opposite problem. Sure, the
+    bullet would cause Massive Internal Damage to whoever it hit, but bullets that
+    missed had the annoying tendency to ricochet and hit whatever or whoever happened
+    to be standing nearby.
+
+
+    In 1972, the Federal Bureau of Investigation unveiled
+    their new standard issue +P load, later dubbed the "FBI Load". This load contained
+    more, (and, more powerful) gunpowder, as well as a 158-grain unjacketed all-lead
+    semi-wadcutter hollow-point bullet. These improvements, when fired from a standard
+    law enforcement revolver, allowed the .38 Special cartridge to effectively and
+    consistently take down whatever (or whoever) it was fired at. This load was very
+    quickly adopted by practically all American police departments, and remained
+    the primary round in use by the FBI until the mid 1980''s, when a slew of tragic
+    and deadly shootouts proved the need to switch to higher capacity semi-automatic
+    handguns. '
+  end_padding_seconds: 0
+  onStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onDegradationChange:
+    m_PersistentCalls:
+      m_Calls: []
+  onStop:
+    m_PersistentCalls:
+      m_Calls: []
+  onCompletePlaythrough:
+    m_PersistentCalls:
+      m_Calls: []
+  onFinishPath:
+    m_PersistentCalls:
+      m_Calls: []
+  timestampEvents: []
+  pre_wear_curves: []
+  unlocks_tape: 60780
+  unlocks_tape_string: ciarencew.fbi_load_tape
+  is_consumed: 0
+  timeline_position: 0
+  prev_timeline_position: 0
+  timeline_length: 0
+--- !u!1 &2795333339259857821
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6578891759346268932}
+  - component: {fileID: 4153542308623138085}
+  m_Layer: 0
+  m_Name: +P Tape
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6578891759346268932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2795333339259857821}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4594410282701189010}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4153542308623138085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2795333339259857821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1802385075, guid: ae6df1fee595eda6dbb801a74c907a8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab_base: {fileID: 0}
+  tape_id: 60781
+  tape_id_string: ciarencew.+p_tape
+  tape_type: 0
+  tape_group: 1
+  tape_group_priority: 0
+  original_event_id: 
+  voice_filter: event:/Tapes/tape_audio_wrapper
+  recording: 
+  audio_file_path: PlusPTapeAudio.ogg
+  tape_instance_id: -1
+  label_texture: {fileID: 0}
+  stoppable: 1
+  use_random_degradation_curve: 0
+  degradation_steps: 5
+  initial_degradation: 0
+  degradation_per_listen: 1
+  texture_mask: {fileID: 0}
+  title: Overpressure
+  text: 'The power of a round is determined by the mass and the velocity of its bullet.
+    If you want your shots to hit with more force, you either need to upgrade to
+    a bigger caliber, or switch to +P loads. Overpressure, or +P rounds, are rounds
+    loaded with a higher concentration of gunpowder, which gives the fired bullet
+    increased stopping power, basically guaranteeing that whatever you shoot down,
+    will stay down -- at least long enough for you to safely neutralize your target.
+
+
+    Advantages
+    rarely come without disadvantages however, and +P rounds are no exception. If
+    you''re a novice shooter, the brighter flash and increased recoil might take
+    you by surprise and cause you to flinch -- or the added stress to the firearm''s
+    mechanics might prevent the gun from cycling properly, or the casing might expand
+    too much and get stuck the chamber, making it harder to extract. '
+  end_padding_seconds: 0
+  onStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onDegradationChange:
+    m_PersistentCalls:
+      m_Calls: []
+  onStop:
+    m_PersistentCalls:
+      m_Calls: []
+  onCompletePlaythrough:
+    m_PersistentCalls:
+      m_Calls: []
+  onFinishPath:
+    m_PersistentCalls:
+      m_Calls: []
+  timestampEvents: []
+  pre_wear_curves: []
+  unlocks_tape: 60781
+  unlocks_tape_string: ciarencew.+p_tape
+  is_consumed: 0
+  timeline_position: 0
+  prev_timeline_position: 0
+  timeline_length: 0
+--- !u!1 &3735851417781972230
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7167311851866232848}
+  - component: {fileID: 5504012903119513239}
+  m_Layer: 0
+  m_Name: Bear Load Tape
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7167311851866232848
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3735851417781972230}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4594410282701189010}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5504012903119513239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3735851417781972230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1802385075, guid: ae6df1fee595eda6dbb801a74c907a8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab_base: {fileID: 0}
+  tape_id: 60782
+  tape_id_string: ciarencew.bear_load_tape
+  tape_type: 0
+  tape_group: 107
+  tape_group_priority: 0
+  original_event_id: 
+  voice_filter: event:/Tapes/tape_audio_wrapper
+  recording: 
+  audio_file_path: BearLoadTapeAudio.ogg
+  tape_instance_id: -1
+  label_texture: {fileID: 0}
+  stoppable: 1
+  use_random_degradation_curve: 0
+  degradation_steps: 5
+  initial_degradation: 0
+  degradation_per_listen: 1
+  texture_mask: {fileID: 0}
+  title: Bear Load
+  text: "When in the American wilderness, it is advised for campers and hikers to
+    be on the lookout for bears, to learn bear safety techniques, and to carry bear
+    spray at all times, in order to dissuade any would-be killer bears. But what
+    if you were a cowboy riding through the open prarie and happened to be charged
+    upon by a vicious, hungry grizzly bear? \n\nFortunately for you, American ammunition
+    manufacturers have considered this exact seemingly recurring problem before,
+    and they've come up with the second best bear repellent there is: the .45 Long
+    Colt Bear Load. Not only is the bullet twice as fast, it's also twice as heavy
+    as the standard .45 Long Colt \"Cowboy Load\", making it approximately 4 to 5
+    times more effective at taking down game; enabling you to take down a single
+    grizzly bear, or four to five cowboys if they stand in a line."
+  end_padding_seconds: 0
+  onStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onDegradationChange:
+    m_PersistentCalls:
+      m_Calls: []
+  onStop:
+    m_PersistentCalls:
+      m_Calls: []
+  onCompletePlaythrough:
+    m_PersistentCalls:
+      m_Calls: []
+  onFinishPath:
+    m_PersistentCalls:
+      m_Calls: []
+  timestampEvents: []
+  pre_wear_curves: []
+  unlocks_tape: 60782
+  unlocks_tape_string: ciarencew.bear_load_tape
+  is_consumed: 0
+  timeline_position: 0
+  prev_timeline_position: 0
+  timeline_length: 0
+--- !u!1 &3785644251866346792
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4594410282701189010}
+  - component: {fileID: 5808820743597768579}
+  m_Layer: 0
+  m_Name: PlusPRoundsAssets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4594410282701189010
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3785644251866346792}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6578891759346268932}
+  - {fileID: 83871887191740168}
+  - {fileID: 7167311851866232848}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5808820743597768579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3785644251866346792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6dfc761da12d117d98deee3fee58a3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plus_p_rounds_entry:
+    generate: 0
+    name: ciarencew.+p_ammo
+    info_sprite: {fileID: 21300000, guid: ffbd1986a20de74cc9d6349f36e53d13, type: 3}
+    title: Overpressure Ammunition
+    description: 'Some of our more advanced Receivers have opted to include overpressure
+      ammunition (more commonly refered to as +P) in their caches. While our firearms
+      training did not include using those types of ammunition -- you might be able
+      to make good use of them. Due to their increased gunpowder load, the bullets
+      fired from those rounds have higher velocity, and, commonly, higher mass. All
+      this to say, whatever you hit, will get hit <u><b>hard</b></u>; A turret you
+      graze might still topple over -- A shock drone you hit center mass might crash
+      into a wall, disabling it.
+
+
+      Despite these advantages over more "standard"
+      rounds, you need to be aware that +P ammo also come with a lot more recoil
+      than you might expect (my gun almost jumped out my hand the first time I shot
+      one of those), and their increased pressure might prevent the gun from functioning
+      properly, resulting in more frequent malfunctions.'
+    locked_default: 1
+    menu_entry_category: 4
+  competition_rounds_entry:
+    generate: 0
+    name: ciarencew.-p_ammo
+    info_sprite: {fileID: 21300000, guid: af2a87d66b080ba808d13be2d24e3549, type: 3}
+    title: Underpressure Ammunition
+    description: 'While standard and overpressure loads might be useful for self-defense,
+      we recommend novice Receivers to practice their firearm drills using reduced-recoil
+      loads. These loads have a lesser amount of gunpowder, and, more often that
+      not, a lighter bullet. As the name suggests, this reduces the recoil exerted
+      upon the gun when it fires. Such loads are also useful for competition matches,
+      although so called "match grade" ammo usually have a heavier bullet. Do note
+      however that while the gun will kick back with less force, so will the slide,
+      which might cause the feed and eject mechanisms to fail.
+
+
+      Obviously,
+      this makes these rounds less effective against killdrones, so make sure to
+      make your shots count.'
+    locked_default: 1
+    menu_entry_category: 4
+  srab_tex: {fileID: 2800000, guid: e599c07d4afe91435b15e7b8afe22168, type: 3}
+  srab_comp_tex: {fileID: 2800000, guid: aa32f377bb4669fb6845ddd4ab219910, type: 3}
+  plus_p_tape: {fileID: 4153542308623138085}
+  fbi_load_tape: {fileID: 3142026473208763235}
+  bear_load_tape: {fileID: 5504012903119513239}
+  audio_bank_list_Help_Me_Im_So_Tired: {fileID: 0}
+  _help_entry_name: ciarencew.+p_ammo
+  _help_entry_info_sprite: {fileID: 21300000, guid: ffbd1986a20de74cc9d6349f36e53d13,
+    type: 3}
+  _help_entry_title: Overpressure Ammunition
+  _help_entry_description: 'Some of our more advanced Receivers have opted to include
+    overpressure ammunition (more commonly refered to as +P) in their caches. While
+    our firearms training did not include using those types of ammunition -- you
+    might be able to make good use of them. Due to their increased gunpowder load,
+    the bullets fired from those rounds have higher velocity, and, commonly, higher
+    mass. All this to say, whatever you hit, will get hit <u><b>hard</b></u>; A turret
+    you graze might still topple over -- A shock drone you hit center mass might
+    crash into a wall, disabling it.
+
+
+    Despite these advantages over more "standard"
+    rounds, you need to be aware that +P ammo also come with a lot more recoil than
+    you might expect (my gun almost jumped out my hand the first time I shot one
+    of those), and their increased pressure might prevent the gun from functioning
+    properly, resulting in more frequent malfunctions.'
+  _competition_help_entry_name: ciarencew.-p_ammo
+  _competition_help_entry_info_sprite: {fileID: 21300000, guid: af2a87d66b080ba808d13be2d24e3549,
+    type: 3}
+  _competition_help_entry_title: Underpressure Ammunition
+  _competition_help_entry_description: 'While standard and overpressure loads might
+    be useful for self-defense, we recommend novice Receivers to practice their firearm
+    drills using reduced-recoil loads. These loads have a lesser amount of gunpowder,
+    and, more often that not, a lighter bullet. As the name suggests, this reduces
+    the recoil exerted upon the gun when it fires. Such loads are also useful for
+    competition matches, although so called "match grade" ammo usually have a heavier
+    bullet. Do note however that while the gun will kick back with less force, so
+    will the slide, which might cause the feed and eject mechanisms to fail.
+
+
+    Obviously,
+    this makes these rounds less effective against killdrones, so make sure to make
+    your shots count.'
+  _9mm_plus_p_tex: {fileID: 2800000, guid: b0282ae78fed0c1d1af44c3121bb109a, type: 3}
+  _9mm_casing_plus_p_tex: {fileID: 2800000, guid: 82dad07e58d0cbb438fe9cc52369c63e,
+    type: 3}
+  _9mm_tracer_plus_p_tex: {fileID: 2800000, guid: b0e7142451bfb4d39b14989bcbc2f36d,
+    type: 3}
+  _9mm_plus_p_round_def:
+    extra_rotation_x: 2
+    extra_rotation_y: 5
+    extra_recoil_x: 2
+    extra_recoil_y: 3
+    extra_stovepipe_chance: 0.01
+    extra_doublefeed_chance: 0.01
+    extra_ftf_chance: 0
+    extra_wrongly_seated_mag_chance: 0
+    extra_out_of_battery_chance: 0
+    extra_slamfire_chance: 0
+    extra_slide_fire_speed: 100
+    extra_wedged_amount: 0.5
+    spawn_chance: 0.125
+    baseVariant: 0
+    cartridge: 1
+    clean_name: .9mm +P
+    shootingRangeAmmoBoxTexture: {fileID: 0}
+  _38_special_plus_p_round_def:
+    extra_rotation_x: 1.5
+    extra_rotation_y: 4
+    extra_recoil_x: 1.5
+    extra_recoil_y: 2.5
+    extra_stovepipe_chance: 0.01
+    extra_doublefeed_chance: 0.01
+    extra_ftf_chance: 0
+    extra_wrongly_seated_mag_chance: 0
+    extra_out_of_battery_chance: 0
+    extra_slamfire_chance: 0
+    extra_slide_fire_speed: 100
+    extra_wedged_amount: 0.5
+    spawn_chance: 0.25
+    baseVariant: 3
+    cartridge: 4
+    clean_name: .38 Special FBI Load
+    shootingRangeAmmoBoxTexture: {fileID: 0}
+  _9mm_extra_rotation_x: 2
+  _9mm_extra_rotation_y: 5
+  _9mm_extra_recoil_x: 2
+  _9mm_extra_recoil_y: 3
+  _9mm_extra_stovepipe_chance: 0.01
+  _9mm_extra_doublefeed_chance: 0.01
+  _9mm_extra_ftf_chance: 0
+  _9mm_extra_wrongly_seated_mag_chance: 0
+  _9mm_extra_slide_fire_speed: 100
+  _9mm_extra_out_of_battery_chance: 0
+  _9mm_extra_slamfire_chance: 0
+  _9mm_extra_wedged_amount: 0.5
+  _9mm_spawn_chance: 0.125
+  _9mm_baseVariant: 0
+  _9mm_cartridge: 1
+  _9mm_clean_name: .9mm +P
+  _38_special_extra_rotation_x: 1.5
+  _38_special_extra_rotation_y: 4
+  _38_special_extra_recoil_x: 1.5
+  _38_special_extra_recoil_y: 2.5
+  _38_special_extra_stovepipe_chance: 0.01
+  _38_special_extra_doublefeed_chance: 0.01
+  _38_special_extra_ftf_chance: 0
+  _38_special_extra_wrongly_seated_mag_chance: 0
+  _38_special_extra_out_of_battery_chance: 0
+  _38_special_extra_slamfire_chance: 0
+  _38_special_extra_slide_fire_speed: 100
+  _38_special_extra_wedged_amount: 0.5
+  _38_special_spawn_chance: 0.25
+  _38_special_baseVariant: 3
+  _38_special_cartridge: 4
+  _38_special_clean_name: .38 Special FBI Load
+  _45_acp_plus_p_tex: {fileID: 2800000, guid: d267f5b0c6836dbcf8fcb3add875ccf7, type: 3}
+  _45_acp_case_plus_p_tex: {fileID: 2800000, guid: edcc6021fa2736053a6ee71604771b88,
+    type: 3}
+  _45_acp_tracer_plus_p_tex: {fileID: 2800000, guid: 0c4fed8f0ea9abe46815d83d1f8deabc,
+    type: 3}
+  _45_lc_plus_p_tex: {fileID: 2800000, guid: 5c1853a52aa43e12ab3032b894096823, type: 3}
+  _45_lc_case_plus_p_tex: {fileID: 2800000, guid: d1f44d2367c214cefb5598a2271cca63,
+    type: 3}
+  _45_acp_plus_p_round_def:
+    extra_rotation_x: 3
+    extra_rotation_y: 7
+    extra_recoil_x: 4
+    extra_recoil_y: 5
+    extra_stovepipe_chance: 0.01
+    extra_doublefeed_chance: 0.01
+    extra_ftf_chance: 0
+    extra_wrongly_seated_mag_chance: 0
+    extra_out_of_battery_chance: 0
+    extra_slamfire_chance: 0
+    extra_slide_fire_speed: 100
+    extra_wedged_amount: 0.5
+    spawn_chance: 0.125
+    baseVariant: 2
+    cartridge: -2
+    clean_name: .45 ACP +P
+    shootingRangeAmmoBoxTexture: {fileID: 0}
+  _45_lc_plus_p_round_def:
+    extra_rotation_x: 4
+    extra_rotation_y: 8
+    extra_recoil_x: 5
+    extra_recoil_y: 6
+    extra_stovepipe_chance: 0.01
+    extra_doublefeed_chance: 0.01
+    extra_ftf_chance: 0
+    extra_wrongly_seated_mag_chance: 0
+    extra_out_of_battery_chance: 0
+    extra_slamfire_chance: 0
+    extra_slide_fire_speed: 100
+    extra_wedged_amount: 0.5
+    spawn_chance: 0.25
+    baseVariant: 8
+    cartridge: -8
+    clean_name: .45 LC +P Bear Load
+    shootingRangeAmmoBoxTexture: {fileID: 0}
+  _50_ae_plus_p_round_def:
+    extra_rotation_x: 8
+    extra_rotation_y: 16
+    extra_recoil_x: 10
+    extra_recoil_y: 12
+    extra_stovepipe_chance: 0.01
+    extra_doublefeed_chance: 0.01
+    extra_ftf_chance: 0
+    extra_wrongly_seated_mag_chance: 0
+    extra_out_of_battery_chance: 0
+    extra_slamfire_chance: 0
+    extra_slide_fire_speed: 100
+    extra_wedged_amount: 0.5
+    spawn_chance: 0.125
+    baseVariant: 6
+    cartridge: -6
+    clean_name: .50 AE +P
+    shootingRangeAmmoBoxTexture: {fileID: 0}
+  _45_acp_extra_rotation_x: 3
+  _45_acp_extra_rotation_y: 7
+  _45_acp_extra_recoil_x: 4
+  _45_acp_extra_recoil_y: 5
+  _45_acp_extra_stovepipe_chance: 0.01
+  _45_acp_extra_doublefeed_chance: 0.01
+  _45_acp_extra_ftf_chance: 0
+  _45_acp_extra_wrongly_seated_mag_chance: 0
+  _45_acp_extra_out_of_battery_chance: 0
+  _45_acp_extra_slamfire_chance: 0
+  _45_acp_extra_slide_fire_speed: 100
+  _45_acp_extra_wedged_amount: 0.5
+  _45_acp_spawn_chance: 0.125
+  _45_acp_baseVariant: 2
+  _45_acp_cartridge: -2
+  _45_acp_clean_name: .45 ACP +P
+  _45_lc_extra_rotation_x: 4
+  _45_lc_extra_rotation_y: 8
+  _45_lc_extra_recoil_x: 5
+  _45_lc_extra_recoil_y: 6
+  _45_lc_extra_stovepipe_chance: 0.01
+  _45_lc_extra_doublefeed_chance: 0.01
+  _45_lc_extra_ftf_chance: 0
+  _45_lc_extra_wrongly_seated_mag_chance: 0
+  _45_lc_extra_out_of_battery_chance: 0
+  _45_lc_extra_slamfire_chance: 0
+  _45_lc_extra_slide_fire_speed: 100
+  _45_lc_extra_wedged_amount: 0.5
+  _45_lc_spawn_chance: 0.25
+  _45_lc_baseVariant: 8
+  _45_lc_cartridge: -8
+  _45_lc_clean_name: .45 LC +P Bear Load
+  _50_ae_extra_rotation_x: 8
+  _50_ae_extra_rotation_y: 16
+  _50_ae_extra_recoil_x: 10
+  _50_ae_extra_recoil_y: 12
+  _50_ae_extra_stovepipe_chance: 0.01
+  _50_ae_extra_doublefeed_chance: 0.01
+  _50_ae_extra_ftf_chance: 0
+  _50_ae_extra_wrongly_seated_mag_chance: 0
+  _50_ae_extra_out_of_battery_chance: 0
+  _50_ae_extra_slamfire_chance: 0
+  _50_ae_extra_slide_fire_speed: 100
+  _50_ae_extra_wedged_amount: 0.5
+  _50_ae_spawn_chance: 0.125
+  _50_ae_baseVariant: 6
+  _50_ae_cartridge: -6
+  _50_ae_clean_name: .50 AE +P
+  _9mm_competition_round_def:
+    extra_rotation_x: -0.8
+    extra_rotation_y: -1
+    extra_recoil_x: -20
+    extra_recoil_y: -20
+    extra_stovepipe_chance: 0.02
+    extra_doublefeed_chance: 0
+    extra_ftf_chance: 0.02
+    extra_wrongly_seated_mag_chance: 0
+    extra_out_of_battery_chance: 0.02
+    extra_slamfire_chance: 0
+    extra_slide_fire_speed: -150
+    extra_wedged_amount: -0.2
+    spawn_chance: 0.125
+    baseVariant: 0
+    cartridge: -1
+    clean_name: .9mm Match
+    shootingRangeAmmoBoxTexture: {fileID: 0}
+  _9mm_comp_extra_rotation_x: -0.8
+  _9mm_comp_extra_rotation_y: -1
+  _9mm_comp_extra_recoil_x: -20
+  _9mm_comp_extra_recoil_y: -20
+  _9mm_comp_extra_stovepipe_chance: 0.02
+  _9mm_comp_extra_doublefeed_chance: 0
+  _9mm_comp_extra_ftf_chance: 0.02
+  _9mm_comp_extra_wrongly_seated_mag_chance: 0
+  _9mm_comp_extra_out_of_battery_chance: 0.02
+  _9mm_comp_extra_slamfire_chance: 0
+  _9mm_comp_extra_slide_fire_speed: -150
+  _9mm_comp_extra_wedged_amount: -0.2
+  _9mm_comp_spawn_chance: 0.125
+  _9mm_comp_baseVariant: 0
+  _9mm_comp_cartridge: -1
+  _9mm_comp_clean_name: .9mm Match
+  _9mm_comp_tex: {fileID: 2800000, guid: a110e316d19a32a398ff434d960f5bb7, type: 3}
+  _9mm_comp_tracer_tex: {fileID: 2800000, guid: 4d8121aeacf2e5dcf9945eeb250d70a6,
+    type: 3}
+  _9mm_comp_case_tex: {fileID: 2800000, guid: fb21f2637cc59f6148aac93802fcbf8a, type: 3}
+  _45_acp_competition_round_def:
+    extra_rotation_x: -0.8
+    extra_rotation_y: -1
+    extra_recoil_x: -40
+    extra_recoil_y: -20
+    extra_stovepipe_chance: 0.02
+    extra_doublefeed_chance: 0
+    extra_ftf_chance: 0.02
+    extra_wrongly_seated_mag_chance: 0
+    extra_out_of_battery_chance: 0.02
+    extra_slamfire_chance: 0
+    extra_slide_fire_speed: -153
+    extra_wedged_amount: -0.2
+    spawn_chance: 0.125
+    baseVariant: 2
+    cartridge: -100002
+    clean_name: .45 ACP Match
+    shootingRangeAmmoBoxTexture: {fileID: 0}
+  _45_acp_comp_extra_rotation_x: -0.8
+  _45_acp_comp_extra_rotation_y: -1
+  _45_acp_comp_extra_recoil_x: -40
+  _45_acp_comp_extra_recoil_y: -20
+  _45_acp_comp_extra_stovepipe_chance: 0.02
+  _45_acp_comp_extra_doublefeed_chance: 0
+  _45_acp_comp_extra_ftf_chance: 0.02
+  _45_acp_comp_extra_wrongly_seated_mag_chance: 0
+  _45_acp_comp_extra_out_of_battery_chance: 0.02
+  _45_acp_comp_extra_slamfire_chance: 0
+  _45_acp_comp_extra_slide_fire_speed: -153
+  _45_acp_comp_extra_wedged_amount: -0.2
+  _45_acp_comp_spawn_chance: 0.125
+  _45_acp_comp_baseVariant: 2
+  _45_acp_comp_cartridge: -100002
+  _45_acp_comp_clean_name: .45 ACP Match
+  _45_acp_comp_tex: {fileID: 2800000, guid: 2dd1b1dd48e8b6073a0acfdba4296180, type: 3}
+  _45_acp_comp_tracer_tex: {fileID: 2800000, guid: 71be6ed018b55d120aa107976835845c,
+    type: 3}
+  _45_acp_comp_case_tex: {fileID: 2800000, guid: d7a5a7ae0a5507f209afc8aacaa1a85e,
+    type: 3}
+  _50_ae_competition_round_def:
+    extra_rotation_x: -1
+    extra_rotation_y: -3
+    extra_recoil_x: -100
+    extra_recoil_y: -50
+    extra_stovepipe_chance: 0.02
+    extra_doublefeed_chance: 0
+    extra_ftf_chance: 0.02
+    extra_wrongly_seated_mag_chance: 0
+    extra_out_of_battery_chance: 0.02
+    extra_slamfire_chance: 0
+    extra_slide_fire_speed: -150
+    extra_wedged_amount: -0.2
+    spawn_chance: 0.125
+    baseVariant: 6
+    cartridge: -100006
+    clean_name: .50 AE Match
+    shootingRangeAmmoBoxTexture: {fileID: 0}
+  _50_ae_comp_extra_rotation_x: -1
+  _50_ae_comp_extra_rotation_y: -3
+  _50_ae_comp_extra_recoil_x: -100
+  _50_ae_comp_extra_recoil_y: -50
+  _50_ae_comp_extra_stovepipe_chance: 0.02
+  _50_ae_comp_extra_doublefeed_chance: 0
+  _50_ae_comp_extra_ftf_chance: 0.02
+  _50_ae_comp_extra_wrongly_seated_mag_chance: 0
+  _50_ae_comp_extra_out_of_battery_chance: 0.02
+  _50_ae_comp_extra_slamfire_chance: 0
+  _50_ae_comp_extra_slide_fire_speed: -150
+  _50_ae_comp_extra_wedged_amount: -0.2
+  _50_ae_comp_spawn_chance: 0.125
+  _50_ae_comp_baseVariant: 6
+  _50_ae_comp_cartridge: -100006
+  _50_ae_comp_clean_name: .50 AE Match
