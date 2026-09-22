@@ -79,7 +79,7 @@ namespace PlusPRound
 					speed = 550f,
 					diameter = 0.013f,
 					density = 11340f,
-					cylinder_length = (19f / 1000f / 11340f) / (Mathf.PI * Mathf.Pow((0.013f * 0.5f), 2)),
+					cylinder_length = (24.62f / 1000f / 11340f) / (Mathf.PI * Mathf.Pow((0.013f * 0.5f), 2)),
 				});
 
 				CustomRoundTypes.RegisterCustomRound(assets._50_ae_plus_p_round_def);
