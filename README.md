@@ -32,6 +32,21 @@
 - Underpressure (unlocked the first time you pick up a reduced-recoil or match or competition or underpressure or -p round)  
 
 (No AI used, aren't I special?)
+## HOW 2 USE  
+### Install  
+Just put the folder in your plugins directory, or don't do anything if you're using a mod manager, gulp  
+
+### In game  
+They have a chance to spawn in the Dreaming, and everywhere else.  
+Oh and there's a config thing to disable it in Classic mode.  
+
+#### When the bullet inventory is shown:  
+- Press X (by default, Modding Kit keybind) to drop the selected round.
+- Press Left/Right Arrow to switch selected rounds.  
+  
+#### In the Compound:  
+- Go up to an ammo box and press Left/Right arrow to switch the current ammo in da box.
+
 ## Credits  
 <b>L7718</b>: Voice of the tapes + Additional Writing + Research  
 <b>Wolfire Games</b>: for maeking da game  
