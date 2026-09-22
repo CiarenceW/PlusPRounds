@@ -404,7 +404,6 @@ MonoBehaviour:
   plus_p_tape: {fileID: 4153542308623138085}
   fbi_load_tape: {fileID: 3142026473208763235}
   bear_load_tape: {fileID: 5504012903119513239}
-  audio_bank_list_Help_Me_Im_So_Tired: {fileID: 0}
   _help_entry_name: ciarencew.+p_ammo
   _help_entry_info_sprite: {fileID: 21300000, guid: ffbd1986a20de74cc9d6349f36e53d13,
     type: 3}
@@ -447,12 +446,12 @@ MonoBehaviour:
   _9mm_tracer_plus_p_tex: {fileID: 2800000, guid: b0e7142451bfb4d39b14989bcbc2f36d,
     type: 3}
   _9mm_plus_p_round_def:
-    extra_rotation_x: 2
-    extra_rotation_y: 5
-    extra_recoil_x: 2
-    extra_recoil_y: 3
-    extra_stovepipe_chance: 0.01
-    extra_doublefeed_chance: 0.01
+    extra_rotation_x: 0.05
+    extra_rotation_y: 0.15
+    extra_recoil_x: 15
+    extra_recoil_y: 5
+    extra_stovepipe_chance: 0.02
+    extra_doublefeed_chance: 0.02
     extra_ftf_chance: 0
     extra_wrongly_seated_mag_chance: 0
     extra_out_of_battery_chance: 0
@@ -465,12 +464,12 @@ MonoBehaviour:
     clean_name: .9mm +P
     shootingRangeAmmoBoxTexture: {fileID: 0}
   _38_special_plus_p_round_def:
-    extra_rotation_x: 1.5
-    extra_rotation_y: 4
-    extra_recoil_x: 1.5
-    extra_recoil_y: 2.5
-    extra_stovepipe_chance: 0.01
-    extra_doublefeed_chance: 0.01
+    extra_rotation_x: 0.5
+    extra_rotation_y: 1
+    extra_recoil_x: 30
+    extra_recoil_y: 20
+    extra_stovepipe_chance: 0.05
+    extra_doublefeed_chance: 0.05
     extra_ftf_chance: 0
     extra_wrongly_seated_mag_chance: 0
     extra_out_of_battery_chance: 0
@@ -482,12 +481,12 @@ MonoBehaviour:
     cartridge: 4
     clean_name: .38 Special FBI Load
     shootingRangeAmmoBoxTexture: {fileID: 0}
-  _9mm_extra_rotation_x: 2
-  _9mm_extra_rotation_y: 5
-  _9mm_extra_recoil_x: 2
-  _9mm_extra_recoil_y: 3
-  _9mm_extra_stovepipe_chance: 0.01
-  _9mm_extra_doublefeed_chance: 0.01
+  _9mm_extra_rotation_x: 0.05
+  _9mm_extra_rotation_y: 0.15
+  _9mm_extra_recoil_x: 15
+  _9mm_extra_recoil_y: 5
+  _9mm_extra_stovepipe_chance: 0.02
+  _9mm_extra_doublefeed_chance: 0.02
   _9mm_extra_ftf_chance: 0
   _9mm_extra_wrongly_seated_mag_chance: 0
   _9mm_extra_slide_fire_speed: 100
@@ -498,12 +497,12 @@ MonoBehaviour:
   _9mm_baseVariant: 0
   _9mm_cartridge: 1
   _9mm_clean_name: .9mm +P
-  _38_special_extra_rotation_x: 1.5
-  _38_special_extra_rotation_y: 4
-  _38_special_extra_recoil_x: 1.5
-  _38_special_extra_recoil_y: 2.5
-  _38_special_extra_stovepipe_chance: 0.01
-  _38_special_extra_doublefeed_chance: 0.01
+  _38_special_extra_rotation_x: 0.5
+  _38_special_extra_rotation_y: 1
+  _38_special_extra_recoil_x: 30
+  _38_special_extra_recoil_y: 20
+  _38_special_extra_stovepipe_chance: 0.05
+  _38_special_extra_doublefeed_chance: 0.05
   _38_special_extra_ftf_chance: 0
   _38_special_extra_wrongly_seated_mag_chance: 0
   _38_special_extra_out_of_battery_chance: 0
@@ -523,12 +522,12 @@ MonoBehaviour:
   _45_lc_case_plus_p_tex: {fileID: 2800000, guid: d1f44d2367c214cefb5598a2271cca63,
     type: 3}
   _45_acp_plus_p_round_def:
-    extra_rotation_x: 3
-    extra_rotation_y: 7
-    extra_recoil_x: 4
-    extra_recoil_y: 5
-    extra_stovepipe_chance: 0.01
-    extra_doublefeed_chance: 0.01
+    extra_rotation_x: 0.1
+    extra_rotation_y: 0.2
+    extra_recoil_x: 20
+    extra_recoil_y: 10
+    extra_stovepipe_chance: 0.05
+    extra_doublefeed_chance: 0.05
     extra_ftf_chance: 0
     extra_wrongly_seated_mag_chance: 0
     extra_out_of_battery_chance: 0
@@ -541,10 +540,10 @@ MonoBehaviour:
     clean_name: .45 ACP +P
     shootingRangeAmmoBoxTexture: {fileID: 0}
   _45_lc_plus_p_round_def:
-    extra_rotation_x: 4
-    extra_rotation_y: 8
-    extra_recoil_x: 5
-    extra_recoil_y: 6
+    extra_rotation_x: 0.5
+    extra_rotation_y: 6
+    extra_recoil_x: 400
+    extra_recoil_y: 300
     extra_stovepipe_chance: 0.01
     extra_doublefeed_chance: 0.01
     extra_ftf_chance: 0
@@ -553,35 +552,35 @@ MonoBehaviour:
     extra_slamfire_chance: 0
     extra_slide_fire_speed: 100
     extra_wedged_amount: 0.5
-    spawn_chance: 0.25
+    spawn_chance: 0.1
     baseVariant: 8
     cartridge: -8
     clean_name: .45 LC +P Bear Load
     shootingRangeAmmoBoxTexture: {fileID: 0}
   _50_ae_plus_p_round_def:
-    extra_rotation_x: 8
-    extra_rotation_y: 16
-    extra_recoil_x: 10
-    extra_recoil_y: 12
-    extra_stovepipe_chance: 0.01
-    extra_doublefeed_chance: 0.01
+    extra_rotation_x: 4
+    extra_rotation_y: 8
+    extra_recoil_x: 400
+    extra_recoil_y: 200
+    extra_stovepipe_chance: 0.05
+    extra_doublefeed_chance: 0.1
     extra_ftf_chance: 0
     extra_wrongly_seated_mag_chance: 0
     extra_out_of_battery_chance: 0
     extra_slamfire_chance: 0
-    extra_slide_fire_speed: 100
+    extra_slide_fire_speed: 200
     extra_wedged_amount: 0.5
-    spawn_chance: 0.125
+    spawn_chance: 0.1
     baseVariant: 6
     cartridge: -6
     clean_name: .50 AE +P
     shootingRangeAmmoBoxTexture: {fileID: 0}
-  _45_acp_extra_rotation_x: 3
-  _45_acp_extra_rotation_y: 7
-  _45_acp_extra_recoil_x: 4
-  _45_acp_extra_recoil_y: 5
-  _45_acp_extra_stovepipe_chance: 0.01
-  _45_acp_extra_doublefeed_chance: 0.01
+  _45_acp_extra_rotation_x: 0.1
+  _45_acp_extra_rotation_y: 0.2
+  _45_acp_extra_recoil_x: 20
+  _45_acp_extra_recoil_y: 10
+  _45_acp_extra_stovepipe_chance: 0.05
+  _45_acp_extra_doublefeed_chance: 0.05
   _45_acp_extra_ftf_chance: 0
   _45_acp_extra_wrongly_seated_mag_chance: 0
   _45_acp_extra_out_of_battery_chance: 0
@@ -592,10 +591,10 @@ MonoBehaviour:
   _45_acp_baseVariant: 2
   _45_acp_cartridge: -2
   _45_acp_clean_name: .45 ACP +P
-  _45_lc_extra_rotation_x: 4
-  _45_lc_extra_rotation_y: 8
-  _45_lc_extra_recoil_x: 5
-  _45_lc_extra_recoil_y: 6
+  _45_lc_extra_rotation_x: 0.5
+  _45_lc_extra_rotation_y: 6
+  _45_lc_extra_recoil_x: 400
+  _45_lc_extra_recoil_y: 300
   _45_lc_extra_stovepipe_chance: 0.01
   _45_lc_extra_doublefeed_chance: 0.01
   _45_lc_extra_ftf_chance: 0
@@ -604,23 +603,23 @@ MonoBehaviour:
   _45_lc_extra_slamfire_chance: 0
   _45_lc_extra_slide_fire_speed: 100
   _45_lc_extra_wedged_amount: 0.5
-  _45_lc_spawn_chance: 0.25
+  _45_lc_spawn_chance: 0.1
   _45_lc_baseVariant: 8
   _45_lc_cartridge: -8
   _45_lc_clean_name: .45 LC +P Bear Load
-  _50_ae_extra_rotation_x: 8
-  _50_ae_extra_rotation_y: 16
-  _50_ae_extra_recoil_x: 10
-  _50_ae_extra_recoil_y: 12
-  _50_ae_extra_stovepipe_chance: 0.01
-  _50_ae_extra_doublefeed_chance: 0.01
+  _50_ae_extra_rotation_x: 4
+  _50_ae_extra_rotation_y: 8
+  _50_ae_extra_recoil_x: 400
+  _50_ae_extra_recoil_y: 200
+  _50_ae_extra_stovepipe_chance: 0.05
+  _50_ae_extra_doublefeed_chance: 0.1
   _50_ae_extra_ftf_chance: 0
   _50_ae_extra_wrongly_seated_mag_chance: 0
   _50_ae_extra_out_of_battery_chance: 0
   _50_ae_extra_slamfire_chance: 0
-  _50_ae_extra_slide_fire_speed: 100
+  _50_ae_extra_slide_fire_speed: 200
   _50_ae_extra_wedged_amount: 0.5
-  _50_ae_spawn_chance: 0.125
+  _50_ae_spawn_chance: 0.1
   _50_ae_baseVariant: 6
   _50_ae_cartridge: -6
   _50_ae_clean_name: .50 AE +P
@@ -703,9 +702,9 @@ MonoBehaviour:
     type: 3}
   _50_ae_competition_round_def:
     extra_rotation_x: -1
-    extra_rotation_y: -3
-    extra_recoil_x: -100
-    extra_recoil_y: -50
+    extra_rotation_y: -1.5
+    extra_recoil_x: -500
+    extra_recoil_y: -200
     extra_stovepipe_chance: 0.02
     extra_doublefeed_chance: 0
     extra_ftf_chance: 0.02
@@ -714,15 +713,15 @@ MonoBehaviour:
     extra_slamfire_chance: 0
     extra_slide_fire_speed: -150
     extra_wedged_amount: -0.2
-    spawn_chance: 0.125
+    spawn_chance: 0.1
     baseVariant: 6
     cartridge: -100006
     clean_name: .50 AE Match
     shootingRangeAmmoBoxTexture: {fileID: 0}
   _50_ae_comp_extra_rotation_x: -1
-  _50_ae_comp_extra_rotation_y: -3
-  _50_ae_comp_extra_recoil_x: -100
-  _50_ae_comp_extra_recoil_y: -50
+  _50_ae_comp_extra_rotation_y: -1.5
+  _50_ae_comp_extra_recoil_x: -500
+  _50_ae_comp_extra_recoil_y: -200
   _50_ae_comp_extra_stovepipe_chance: 0.02
   _50_ae_comp_extra_doublefeed_chance: 0
   _50_ae_comp_extra_ftf_chance: 0.02
@@ -731,7 +730,7 @@ MonoBehaviour:
   _50_ae_comp_extra_slamfire_chance: 0
   _50_ae_comp_extra_slide_fire_speed: -150
   _50_ae_comp_extra_wedged_amount: -0.2
-  _50_ae_comp_spawn_chance: 0.125
+  _50_ae_comp_spawn_chance: 0.1
   _50_ae_comp_baseVariant: 6
   _50_ae_comp_cartridge: -100006
   _50_ae_comp_clean_name: .50 AE Match
