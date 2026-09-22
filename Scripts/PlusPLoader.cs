@@ -75,7 +75,7 @@ namespace PlusPRound
 				DuplicatePrefab(CartridgeSpec.Preset._50_AE, k_50_ae_plus_p, assets._45_acp_plus_p_tex, assets._45_acp_case_plus_p_tex, assets._45_acp_tracer_plus_p_tex, "50_ae_plus_p_round_object", new CartridgeSpec()
 				{
 					extra_mass = 24f,
-					mass = 19f,
+					mass = 24.62f,
 					speed = 550f,
 					diameter = 0.013f,
 					density = 11340f,
